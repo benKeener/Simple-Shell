@@ -9,11 +9,14 @@ ben_keener@me.com
 
 # Contents
 
-shell.c: The main implementation of the shell script with an interactive mode and a mode that takes a script as an argument
-shell.h: The header file for the shell that contains the struct command and the function free_command.
-parser.c: The implementation of the functions contained in the command struct and free_command.
-README.txt: This file.
-Makefile: creates a shell  executable using shell.c and parser.c
+# shell.c 
+The main implementation of the shell script with an interactive mode and a mode that takes a script as an argument
+# shell.h 
+The header file for the shell that contains the struct command and the function free_command.
+# parser.c 
+The implementation of the functions contained in the command struct and free_command.
+# Makefile
+creates a shell  executable using shell.c and parser.c
 
 # Running 
 
